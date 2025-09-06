@@ -1,4 +1,5 @@
 def KonversiSuhu(nilai, suhu_awal, suhu_akhir):
+    
     if suhu_awal == 'c' and suhu_akhir == 'f':
         return (nilai * 9/5) + 32
     elif suhu_awal == 'c' and suhu_akhir == 'k':
